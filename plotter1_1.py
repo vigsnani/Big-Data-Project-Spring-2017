@@ -7,7 +7,7 @@ t = []
 fig = plt.figure()
 rect = fig.patch
 rect.set_facecolor('#31312e')
-readFile = open('/Users/deepaks/Desktop/Output1_1/part-00000', 'r')
+readFile = open('/Users/Name/Desktop/Output1_1/part-00000', 'r')
 sepFile = readFile.read().strip().split('\n')
 
 readFile.close()
